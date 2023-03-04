@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   width: 100%;
   padding-right: 15px;
@@ -31,16 +36,33 @@
   }
 }
 
-header{
-  display: flex;
-  flex-direction: row;
+header {
+  margin: 0;
+  padding: 0;
 }
 
 header ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(253, 217, 223);
+  list-style: none;
 }
 
 header ul li {
-  list-style: none;
-  margin-left: 10px;
+  padding: 15px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: rgb(255, 41, 112);
+  padding: 15px;
+  
+}
+
+
+header ul li a:hover {
+  background-color: rgb(255, 65, 96);
+  color: #fff;
+  transition: all ease 1;
 }
