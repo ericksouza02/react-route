@@ -31,7 +31,7 @@ const  onSubmitHandler = event => {
         setSobrenome('')
         setEmail('')
         console.log(dados)
-        props.adicionarUsuario(dados)
+        
       })
   }
 
